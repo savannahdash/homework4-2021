@@ -51,7 +51,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color:#B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 
@@ -67,8 +67,7 @@ a{
 td{
   text-align: center;
   border-top: 2px solid black;
-  padding: 10px;
-  
+  padding: 10px;  
 }
 
 .colhead{
@@ -77,18 +76,20 @@ td{
   padding: 10px;
   text-transform: uppercase;
   background-color: #7e0825;
-  margin: 0 auto;
+  text-align:center;
+  vertical-align: middle;
 }
 
 
 .rowhead{
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: solid #000000 2px;
+  border-right: solid #000000 2px;
+  text-align: center;
+  padding: 10px;
 }
 
 
 table{
-    border: 5px solid #000000;
     margin: 0 auto;
     border: 5px solid black; 
     border-radius: 50px;
@@ -118,7 +119,7 @@ tbody tr:nth-child(odd){
 }
 
 tbody tr:hover{
-  background-color: hsla(345,88%,26%,0.25);
+  background: rgba(126,8,37,0.25);
 }
 
 /*Add selectors and rules here*/
@@ -132,6 +133,4 @@ footer{
   position: fixed;
   left: 0px;
   bottom: 0px;
-
-  
 }
